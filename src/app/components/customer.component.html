@@ -1,0 +1,13 @@
+<p>customer works!</p>
+<p>{{customerId}}</p>
+<br>
+<div *ngFor="let i of fids">
+    <!-- <p>{{i}}</p> -->
+    <p><button type="button" (click)="concat(i)">{{i}}</button></p>
+  
+</div>
+
+<div>
+    {{joinedFids}}
+</div>
+
